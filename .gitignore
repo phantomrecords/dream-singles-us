@@ -1,0 +1,19 @@
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Linux swap and temp files
+*.swp
+*.tmp
+*.log
+
+# Node and package environments (optional)
+node_modules/
+.env
+
+# IDE/editor metadata (optional)
+.vscode/
+.idea/
