@@ -1,0 +1,514 @@
+.clear {clear: both;}
+.pr0 { padding-right: 0; }
+
+#free-trial-modal-v5.modal .close {
+    position: absolute;
+    z-index: 300;
+    right: 5px;
+    top: 5px;
+}
+
+#free-trial-modal-v5.modal .modal-body {
+    color: #4e4e4e;
+    background-color: #f2f2f1;
+}
+
+#free-trial-modal-v5 .bootstrap-select .btn-light {
+    height: 40px !important;
+    border: 1px solid #c7c7c7;
+    background-color: white;
+    color: #999999;
+}
+
+#free-trial-modal-v5.modal .modal-dialog {
+    max-width: 740px !important;
+    height: auto;
+}
+#free-trial-modal-v5.modal .modal-body .close:before {
+    content: "X";
+    font-size: larger;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+}
+#free-trial-modal-v5.modal .modal-backdrop.in {
+    opacity: .9;
+}
+#free-trial-modal-v5.modal .text-left { text-align: left; }
+#free-trial-modal-v5.modal .block { display: block; }
+
+#free-trial-modal-v5.modal .dismiss-text {
+    font-size: 14px;
+    text-decoration: underline;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+#free-trial-modal-v5.modal .dismiss-text:hover {
+    cursor: pointer;
+}
+
+/*
+ * Step 1
+ */
+#free-trial-modal-v5.modal .lady-profile-pic {
+    min-width: 166px;
+    position: relative;
+    z-index: 600;
+}
+#free-trial-modal-v5.modal .limited-time-offer {
+    position: absolute;
+    top: 0;
+    width: 70px;
+}
+
+#free-trial-modal-v5.modal .generic .limited-time-offer {
+    left: 0;
+}
+
+#free-trial-modal-v5.modal .personal .limited-time-offer {
+    right: 0;
+}
+
+#free-trial-modal-v5.modal .legit-frame {
+    font-family: serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+#free-trial-modal-v5.modal .legit-frame span {
+    display: block;
+}
+#free-trial-modal-v5.modal .green-bar {
+    width: 50px;
+    height: 2px;
+    background: #068e02;
+    display: inline-block;
+}
+#free-trial-modal-v5.modal .heading-frame {
+    font-family: serif;
+    font-size: 70px;
+    line-height: 70px;
+    color: #0086b3;
+    font-weight: bold;
+}
+#free-trial-modal-v5.modal .heading-frame span {
+    display: block;
+}
+#free-trial-modal-v5.modal .heading-frame span.just-1-dollar {
+    font-size: 60px;
+    color: #077ea5;
+}
+#free-trial-modal-v5.modal .instant-access-frame,
+#free-trial-modal-v5.modal .intanct-access-frame label {
+    font-size: 16px;
+}
+#free-trial-modal-v5.modal .instant-access-frame .ninety-percent-off {
+    background-color: #d0eccd;
+    color: #007500;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#free-trial-modal-v5.modal .step1-note,
+#free-trial-modal-v5.modal .notice-agree {
+    color: #b0b0b0;
+    font-size: 10px;
+}
+#free-trial-modal-v5.modal .step1of3 {
+    width: 300px;
+}
+
+#free-trial-modal-v5.modal .personal .text-content{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 500;
+}
+
+#free-trial-modal-v5.modal .personal .text-content.text-title {
+    font-weight: normal;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 600;
+}
+
+#free-trial-modal-v5.modal .personal .text-content.lady-name{
+    font-style: italic;
+    font-size: 52px;
+    line-height: 54px;
+    color: #0083b0;
+    text-transform: capitalize;
+}
+
+#free-trial-modal-v5.modal .personal .left-panel {
+    width: 100%;
+}
+
+#free-trial-modal-v5.modal .personal .left-panel img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#free-trial-modal-v5.modal .personal .right-panel {
+    width: 55%;
+    display: inline-block;
+    margin-left: 3%;
+    vertical-align: bottom;
+}
+
+#free-trial-modal-v5.modal .btn-green-1 {
+    background-color: #39b54a;
+    width: 96%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 23px 0;
+}
+
+#free-trial-modal-v5.modal .personal .green-bar {
+    width: 50px;
+    height: 1px;
+    background: #068e02;
+    display: inline-block;
+    margin-top: 36px;
+}
+/*
+ * Step 2
+ */
+
+#free-trial-modal-v5.modal .btn.btn-green.btn-pill {
+    line-height: 44px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #1cb632;
+    padding: 0 30px;
+}
+
+#free-trial-modal-v5.modal .btn.btn-green.btn-pill:active {
+    background-color: #147923;
+}
+
+#free-trial-modal-v5.modal .banner-wrapper {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 4%;
+    text-align: center;
+}
+#free-trial-modal-v5.modal .banner-wrapper p {
+    font-family: "Myriad Pro", "PT Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#free-trial-modal-v5.modal .banner-wrapper p span {
+    font-weight: bold;
+    color: black;
+}
+
+#free-trial-modal-v5.modal .badge-wrapper {
+    text-align: center;
+    width: 30%;
+    min-width: 220px;
+    margin: 20px auto;
+}
+
+#free-trial-modal-v5.modal .badge-wrapper img {
+    max-width: 32%;
+    display: inline-block;
+}
+#free-trial-modal-v5.modal .badge-wrapper img.ssl-badge {
+    max-width: 24%;
+}
+#free-trial-modal-v5.modal .banner-wrapper p span.text-light-blue {
+    color: #069cdd;
+}
+
+#free-trial-modal-v5.modal .banner-wrapper p span.text-pink {
+    color: #f31c36;
+}
+#free-trial-modal-v5.modal #step2 .pay {
+    color: #9c9c9c;
+    text-transform: uppercase;
+    font-family: "Myriad Pro", "PT Sans", sans-serif;
+    font-size: 18px;
+}
+#free-trial-modal-v5.modal #step2 .legal-txt {
+    margin: 20px 0;
+}
+#free-trial-modal-v5.modal #step2 {
+    padding-top: 60%;
+}
+#free-trial-modal-v5.modal .form-header {
+    font-family: "Myriad Pro", "PT Sans", sans-serif;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 7px;
+}
+#free-trial-modal-v5.modal .full{
+    width: 99%;
+    display: inline-block;
+}
+#free-trial-modal-v5.modal .half {
+    width: 49%;
+    display: inline-block;
+}
+#free-trial-modal-v5.modal .third {
+    width: 32%;
+    display: inline-block;
+}
+
+
+/*
+ * FORM AGREEMENT
+ */
+#free-trial-modal-v5.modal .modal-body .notice-agree {
+    clear: both;
+    padding: 6px 0;
+    font-size: 12px;
+    margin: 14px;
+    text-align: center;
+}
+#free-trial-modal-v5.modal .modal-body .notice-agree input {
+    margin-right: 5px;
+}
+
+/*
+ * SUBMIT BUTTON
+ */
+#free-trial-modal-v5.modal button.submit {
+    border: none;
+    border-radius: 3px;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #7fcb37, #3f9222);
+    -webkit-text-shadow: 0px 1px 2px #4e4e4e;
+    -moz-text-shadow: 0px 1px 2px #4e4e4e;
+    text-shadow: 0px 1px 2px #4e4e4e;
+}
+#free-trial-modal-v5.modal .right-side button.submit {
+    width: 90%;
+}
+
+@media screen and (max-width: 767px) {
+    #free-trial-modal-v5.modal .banner-wrapper p {
+        margin: 0 0 0 0;
+    }
+    #free-trial-modal-v5.modal #step2 {
+        padding-top: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #free-trial-modal-v5.modal #step2 {
+        padding-top: 67%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    #free-trial-modal-v5.modal .form-group .filter-option-inner-inner {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 478px) {
+    #free-trial-modal-v5.modal .personal .left-panel {
+        width: 40%;
+        display: inline-block;
+    }
+
+    #free-trial-modal-v5.modal .limited-time-offer {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #free-trial-modal-v5.modal #step2 {
+        padding-top: 53%;
+    }
+}
+
+@media (min-width: 766px) {
+
+    #free-trial-modal-v5.modal .form-group .filter-option-inner-inner {
+        font-size: 13px;
+    }
+
+    #free-trial-modal-v5.modal .payment-information {
+        width: 49%;
+        float: right;
+    }
+
+    #free-trial-modal-v5.modal .billing-information {
+        width: 49%;
+        padding-right: 2%;
+        border-right: 1px solid #dadada;
+        float: left;
+    }
+
+    #free-trial-modal-v5.modal .payment-footer {
+        clear: both;
+    }
+
+    #free-trial-modal-v5.modal .checklist-frame ul li {
+        padding: 0;
+        float: left;
+        width: 25%;
+    }
+
+    #free-trial-modal-v5.modal #step2 {
+
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #free-trial-modal-v5.modal #step2 .billing-footer {
+        clear: both;
+    }
+
+    #free-trial-modal-v5.modal #step2 .pay {
+        float: left;
+        width: 49%;
+        text-align: left;
+    }
+
+    #free-trial-modal-v5.modal #step2 .badge-wrapper {
+        width: 50%;
+        float: right;
+        margin: 0;
+    }
+
+    #free-trial-modal-v5.modal #step2 .badge-wrapper img {
+        max-width: 20%;
+        margin: 0 10px;
+    }
+
+    #free-trial-modal-v5.modal #step2 .badge-wrapper img.ssl-badge {
+        max-width: 16%;
+    }
+
+    #free-trial-modal-v5.modal #step2 .legal-txt {
+        padding-top: 20px;
+        clear: both;
+        text-align: left;
+    }
+
+    #free-trial-modal-v5.modal .btn.btn-green.btn-pill {
+        width: 350px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    #free-trial-modal-v5.modal .personal .text-content.lady-name{
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    #free-trial-modal-v5.modal .personal .text-content{
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .limited-time-offer-right {
+        max-width: 64px;
+    }
+
+    #free-trial-modal-v5.modal .btn-green-1 {
+        font-size: 14px;
+    }
+    #free-trial-modal-v5.modal .modal-body {
+        padding-top: 10px;
+        min-height: 100%;
+    }
+    #free-trial-modal-v5.modal #step1 {
+        padding-top: 30px;
+    }
+    #free-trial-modal-v5.modal .limited-time-offer img {
+        width: 130px;
+    }
+    #free-trial-modal-v5.modal .legit-frame {
+        margin-bottom:5px;
+    }
+    #free-trial-modal-v5.modal .legit-frame span:nth-child(2) {
+        font-size: 19px;
+    }
+    #free-trial-modal-v5.modal .heading-frame .all-access {
+        font-size: 70px;
+    }
+    #free-trial-modal-v5.modal .heading-frame .all-access .green {
+        color: #068e02;
+    }
+    #free-trial-modal-v5.modal .heading-frame .all-access .threeday {
+        padding: 10px;
+    }
+    #free-trial-modal-v5.modal .heading-frame .all-access .green-bar {
+        text-align: center;
+        display: inline-block;
+        margin: 10px 0 20px 0;
+    }
+    #free-trial-modal-v5.modal .left-side .boxed-frame {
+        border-right: 1px solid #ddd;
+    }
+    #free-trial-modal-v5.modal .right-side > .row {
+        margin: 0;
+    }
+    #free-trial-modal-v5.modal .payment-form-fram {
+        padding-top: 10px;
+    }
+    #free-trial-modal-v5.modal form .col-xs-card,
+    #free-trial-modal-v5.modal form .col-xs-year,
+    #free-trial-modal-v5.modal form .col-xs-zip {
+        padding-right: 5px !important;
+    }
+    #free-trial-modal-v5.modal form .col-xs-first {
+        padding-left: 0 !important;
+    }
+    #free-trial-modal-v5.modal form .col-xs-last {
+        padding-right: 0 !important;
+    }
+    #free-trial-modal-v5.modal .modal-body .notice-agree {
+        margin-top: -10px;
+    }
+    #free-trial-modal-v5.modal .bootstrap-select.btn-group .dropdown-menu {
+        height: 295px !important;
+    }
+    #free-trial-modal-v5.modal button.submit {
+        width: 80%;
+    }
+    #free-trial-modal-v5.modal img.step1of3 {
+        width: 100%;
+        max-width: 360px;
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    #free-trial-modal-v5.modal .personal .right-panel {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media(max-width: 260px)  {
+    #free-trial-modal-v5.modal .banner-wrapper p{
+       display: none!important;
+    }
+}
+

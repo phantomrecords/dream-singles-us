@@ -1,0 +1,87 @@
+.toaster-top-center {
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.toaster-bottom-center {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+.toaster-top-full-width {
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.toaster-bottom-full-width {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+.toaster-top-left {
+  top: 12px;
+  left: 12px;
+}
+.toaster-top-right {
+  top: 12px;
+  right: 12px;
+}
+.toaster-bottom-right {
+  right: 12px;
+  bottom: 12px;
+}
+.toaster-bottom-left {
+  bottom: 12px;
+  left: 12px;
+}
+#toaster {
+  position: fixed;
+  z-index: 999999;
+}
+#toaster * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#toaster .toast {
+  -moz-box-shadow: 0 0 12px #999999;
+  -webkit-box-shadow: 0 0 12px #999999;
+  box-shadow: 0 0 12px #999999;
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px;
+  width: 290px;
+  height: 100px;
+}
+#toaster .toast .toast-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-weight: bold;
+  color: #bbb;
+}
+#toaster .toast .left-col {
+  width: 25%;
+  float: left;
+  padding: 0px 10px 0 0;
+}
+#toaster .toast .left-col img {
+  width: 100%;
+  height: auto;
+}
+#toaster .toast .right-col {
+  text-align: center;
+}
+#toaster .toast .right-col .toast-message {
+  font-weight: bold;
+  margin: 8px 0;
+}
+#toaster .toast .right-col .toast-link {
+  background-color: #0bab00;
+  color: white;
+  padding: 5px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  width: 110px;
+}

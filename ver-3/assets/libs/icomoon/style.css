@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?h95x74');
+  src:  url('fonts/icomoon.eot?h95x74#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?h95x74') format('truetype'),
+    url('fonts/icomoon.woff?h95x74') format('woff'),
+    url('fonts/icomoon.svg?h95x74#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icons-small-"], [class*=" icons-small-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="icons-"], [class*=" icons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icons-flirt-icon:before {
+  content: "\10ffff";/*
+  color: #5774b3;*/
+}
+
+.icons-small-flirt-icon:before {
+  content: "\10ffff";}

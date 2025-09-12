@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.player {
+  flex: 1;
+}
+
+.life {
+  font-size: 4rem;
+  margin: 10px 0;
+}
+
+.buttons button {
+  background: #444;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.buttons button:hover {
+  background: #666;
+}

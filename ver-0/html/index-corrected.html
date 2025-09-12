@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream-Singles.us — Coming Soon</title>
+
+  <!--
+    Brand Palette (PUBLIC & INTENTIONAL):
+    --brand-blue: #17537F   (primary banner blue)
+    --brand-white: #FFFFFF  (primary text)
+    --brand-green: #129136  (“Singles” accent)
+    --brand-red: #FF0000    (underline / “The”)
+    --brand-soft: #D6DCE3   (soft highlight)
+    --brand-blue-2: #346289 (secondary blue)
+    Copyright © Michael Widener, II. CC BY-ND 4.0 (no derivatives). U.S. copyright reserved.
+  -->
+
+  <style>
+    :root{
+      --brand-blue:#17537F;
+      --brand-white:#FFFFFF;
+      --brand-green:#129136;
+      --brand-red:#FF0000;
+      --brand-soft:#D6DCE3;
+      --brand-blue-2:#346289;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--brand-blue);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 1200px;
+      object-fit: contain;
+    }
+
+    @media (max-width: 768px) { img { max-width: 95%; } }
+    @media (max-width: 480px) { img { max-width: 90%; } }
+
+    /* Swatch Bar */
+    .swatches {
+      display: none;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .swatch {
+      width: 120px;
+      height: 60px;
+      margin: 5px;
+      color: var(--brand-white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      text-align: center;
+      font-family: sans-serif;
+      border: 1px solid #000;
+    }
+    .brand-blue    { background: var(--brand-blue); }
+    .brand-white   { background: var(--brand-white); color: #000; }
+    .brand-green   { background: var(--brand-green); }
+    .brand-red     { background: var(--brand-red); }
+    .brand-soft    { background: var(--brand-soft); color: #000; }
+    .brand-blue-2  { background: var(--brand-blue-2); }
+
+    button {
+      margin-top: 15px;
+      background: var(--brand-green);
+      border: none;
+      padding: 8px 14px;
+      font-size: 0.9rem;
+      color: var(--brand-white);
+      cursor: pointer;
+      font-family: sans-serif;
+    }
+    button:hover {
+      background: var(--brand-blue-2);
+    }
+  </style>
+</head>
+<body>
+  <img src="dream-singles-who-are-u-s-citizens-welcome-message.png" 
+       alt="Dream-Singles.us — U.S. citizens welcome message" />
+
+  <button onclick="document.querySelector('.swatches').style.display =
+                   document.querySelector('.swatches').style.display === 'flex' ? 'none' : 'flex'">
+    Toggle Color Swatches
+  </button>
+
+  <div class="swatches">
+    <div class="swatch brand-blue">Blue<br>#17537F</div>
+    <div class="swatch brand-white">White<br>#FFFFFF</div>
+    <div class="swatch brand-green">Green<br>#129136</div>
+    <div class="swatch brand-red">Red<br>#FF0000</div>
+    <div class="swatch brand-soft">Soft<br>#D6DCE3</div>
+    <div class="swatch brand-blue-2">Blue 2<br>#346289</div>
+  </div>
+</body>
+</html>

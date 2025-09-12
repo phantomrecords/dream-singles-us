@@ -1,0 +1,131 @@
+.bootstrap-select>.dropdown-toggle {
+    height: 40px !important;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    line-height: 1.828571;
+}
+
+.billing-card-wrapper {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    padding-top:25px;
+    padding-bottom:20px;
+    flex-wrap: wrap;
+}
+
+.billing-card-wrapper .form-group {
+    flex-wrap: wrap;
+}
+
+.billing-card-wrapper label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #2662cd;
+    border: none;
+    font-size: 18px;
+    background: none;
+}
+
+.new-toggle {
+    display: flex;
+}
+
+#membership_purchase_billing_creditCard_new {
+    width: 100%;
+}
+
+.new-toggle .form-check {
+    width:  calc(50% - 30px);
+    margin-right: 45px;
+    display: inline-block;
+}
+
+.new-toggle .form-check:nth-child(2) {
+    margin-right: 15px; !important;
+}
+
+.billing-information-form .active .nav-link, .billing-information-form .active .nav-link:hover, .billing-information-form .active .nav-link:focus {
+    background-color: #f8f8f8;
+}
+
+
+.billing-section {
+    margin: 0 15px;
+    min-width: 320px;
+}
+@media screen and (max-width: 1299px)
+{
+    .billing-section{
+        max-width: 100%;
+    }
+}
+
+.agree-to-silver .form-check {
+    display: inline-block;
+}
+
+.btn.btn-centered {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+table.credit-options {
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    text-align: center;
+}
+table.credit-options th,
+table.credit-options .odd td,
+table.credit-options .even td
+{
+    padding: 10px;
+    text-align: center;
+    border-right: 2px solid #fff;
+}
+table.credit-options th {
+    background: #e4f2fb;
+}
+table.credit-options .odd {
+    background: #f8f8f8;
+}
+table.credit-options tr th:last-child,
+table.credit-options tr td:last-child
+{
+    text-align: left;
+    border: none;
+}
+table.credit-options tr td .best-value {
+    margin-left: 10px;
+    padding: 5px;
+    background: #d9534f;
+    color: #fff;
+    font-size: smaller;
+    border-radius: 5px;
+}
+#creditForm .bootstrap-select, #creditForm select {
+    width:100%;
+    border-color:#ddd;
+}
+#creditForm input.error, #creditForm .bootstrap-select.error {
+    border: 1px solid #d9534f;
+}
+#creditForm label.error {
+    color: #d9534f;
+}
+
+#creditForm #ccPurchaseSubmitButton[disabled] {
+    background-color: #0bab00;
+    border-color: #0bab00;
+    color: #FFFFFF;
+}
+
+.promo_info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 32px;
+}

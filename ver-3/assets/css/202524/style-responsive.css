@@ -1,0 +1,1508 @@
+@media (max-width: 1200px) {
+	.home-male-stats {
+		display:none;
+	}
+}
+/*For page1 bg image*/
+@media (min-width: 1600px) {
+	#page1-form{
+	  background-position: 100% 0%
+	}
+	.benifit-box .img-benefit-offer {
+	width: 150px;
+	height: auto;
+	}
+	div.gallery-viewmore{
+		display: none;
+	}
+	.seasonal-confirm-banner {
+		min-height: 140px;
+		padding-top: 10px;
+	}
+}
+
+/*Extra Large Desktop*/
+@media (min-width: 1500px) {
+
+}
+
+/*Large Desktop*/
+@media (min-width: 992px) and (max-width: 1499px)  {
+	.btimer-blk1{
+		display: block!important;
+		width:100%;
+	}
+	.btimer-blk3{
+		display: inline-block!important;
+		width:58%;
+	}
+	.btimer-blk4{
+		display: inline-block!important;
+		width:40%;
+	}
+	#banner-timer{
+		display: block!important;
+	}
+}
+
+/*Desktop*/
+@media (min-width: 900px) and (max-width: 1299px) {
+	.btn-default {
+		width:auto;
+	}
+	.inboxmenu, .inboxsubmenu{
+		margin-top:2px;
+	}
+	.message_dropdown {
+		font-size:1em;
+	}
+	.dropdown-box {
+		padding-left:0;
+		padding-right:0;
+	}
+	.dropdown-box {
+		margin-top:0px;
+		padding-top:0;
+	}
+	.message_dropdown {
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+}
+
+/*Vertical iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+	.stats {
+		display:block;
+	}
+}
+
+/*Small desktop or tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+	body{overflow-x: hidden;}
+	.table-responsive {
+		width: 100%;
+		margin-bottom: 15px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		border: 1px solid #dddddd;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		-webkit-overflow-scrolling: touch;
+	}
+	.table-responsive > .table {
+		margin-bottom: 0;
+	}
+	.table-responsive > .table > thead > tr > th,
+	.table-responsive > .table > tbody > tr > th,
+	.table-responsive > .table > tfoot > tr > th,
+	.table-responsive > .table > thead > tr > td,
+	.table-responsive > .table > tbody > tr > td,
+	.table-responsive > .table > tfoot > tr > td {
+		white-space: nowrap;
+	}
+	.table-responsive > .table-bordered {
+		border: 0;
+	}
+	.table-responsive > .table-bordered > thead > tr > th:first-child,
+	.table-responsive > .table-bordered > tbody > tr > th:first-child,
+	.table-responsive > .table-bordered > tfoot > tr > th:first-child,
+	.table-responsive > .table-bordered > thead > tr > td:first-child,
+	.table-responsive > .table-bordered > tbody > tr > td:first-child,
+	.table-responsive > .table-bordered > tfoot > tr > td:first-child {
+		border-left: 0;
+	}
+	.table-responsive > .table-bordered > thead > tr > th:last-child,
+	.table-responsive > .table-bordered > tbody > tr > th:last-child,
+	.table-responsive > .table-bordered > tfoot > tr > th:last-child,
+	.table-responsive > .table-bordered > thead > tr > td:last-child,
+	.table-responsive > .table-bordered > tbody > tr > td:last-child,
+	.table-responsive > .table-bordered > tfoot > tr > td:last-child {
+		border-right: 0;
+	}
+	.table-responsive > .table-bordered > tbody > tr:last-child > th,
+	.table-responsive > .table-bordered > tfoot > tr:last-child > th,
+	.table-responsive > .table-bordered > tbody > tr:last-child > td,
+	.table-responsive > .table-bordered > tfoot > tr:last-child > td {
+		border-bottom: 0;
+	}
+	.button-menu-mobile{display: block;}
+	.navbar{margin: 0 0 0 40px;}
+	.mobile-sidebar{left: 0px;}
+	.mobile-content{left: 225px;right: -225px;}
+	.box-info .icon-box{
+		width: 45px;
+		font-size: 20px;
+		margin-top: 5px
+	}
+	.box-info .text-box p{font-size: 11px;}
+	.toolbar-btn-action{text-align: center;}
+	.gallery-wrap .column .inner .img-wrap{
+		height: 60px;
+		overflow: hidden;
+		background: #ddd;
+	}
+	.gallery-wrap .column-3 .inner .img-wrap{
+		height: 140px;
+		overflow: hidden;
+		background: #ddd;
+	}
+	.gallery-wrap .column-4 .inner .img-wrap{
+		height: 100px;
+		overflow: hidden;
+		background: #ddd;
+	}
+	.user-profile-sidebar{text-align: center;}
+	.gift-item-ellipsis{
+		width:350px;
+		display:block;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+	}
+}
+@media (max-width: 1600px) {
+	.benifit-box .img-benefit-offer {
+		width: 150px;
+		height: auto;
+	}
+	.benifit-box h2{
+		font-size: 20px;
+		min-height: 80px;
+	}
+	.benifit-offer-boxes .benifit-box{
+		margin: 0px!important;
+		padding:8px!important;
+	}
+	.benifit-offer-boxes .benifit-box .img-benefit-offer{
+		width: 140px!important;
+	}
+	.benifit-offer-boxes .col-lg-3{
+		padding-left: 3px!important;
+		padding-right: 3px!important;
+	}
+	#creditpurchasebenefits a.benefitbutton{
+		width: 140px!important;
+		padding: 4px 4px;
+	}
+	#btimer{
+		font-size: 48px!important;
+	}
+
+}
+@media (max-width: 1600px) {
+	#btimer{
+		font-size: 45px!important;
+	}
+	 div.gallery-profile {
+ 		width: 23%!important;
+ 	}
+	div.gallery-viewmore{
+		display: inline-block;
+	}
+}
+@media (min-device-width: 768px) and (max-width: 1500px) {
+	div.gallery-profile {
+		width: 31%!important;
+	}
+	div.gallery-viewmore{
+		display: none;
+	}
+
+}
+@media (max-width: 1350px) {
+	div.gallery-profile {
+		width: 31%!important;
+	}
+}
+@media (max-width: 1100px) {
+	div.gallery-profile {
+		width: 46%!important;
+	}
+}
+@media (max-width: 1100px) and (orientation: landscape) {
+	.ccIcon {
+		width: 50px;
+		height: auto;
+	}
+}
+@media (max-width: 1200px) {
+	.hidden-sm-down{
+		display: none!important;
+	}
+	.show-sm-down{
+		display: block!important;
+	}
+	.show-sm-down a.benefitbuttonlink{
+		display: block;
+	}
+	.show-sm-down .cpb-box p{
+		text-align: center!important;
+	}
+	.show-sm-down .cpb-box{
+		padding: 10px;
+	}
+	.show-sm-down .cpb-box.firstcol{
+		border-right: dashed #D8D8D8 .5px;
+	}
+	.show-sm-down .cpb-box.firstrow{
+		border-bottom: dashed #D8D8D8 .5px;
+	}
+	.creditpurchase-grid.row :nth-child(3n-1){
+		border-right: dashed #D8D8D8 .0px;
+		border-left: dashed #D8D8D8 .0px;
+	}
+	.creditpurchase-grid div:nth-of-type(6n+1), .creditpurchase-grid div:nth-of-type(6n+2), .creditpurchase-grid div:nth-of-type(6n+3) {
+		border-bottom: dashed #D8D8D8 .0px;
+	}
+	/*.creditpurchase-grid div:nth-of-type(6n+1),.creditpurchase-grid div:nth-of-type(6n+3),.creditpurchase-grid div:nth-of-type(6n+5){
+		border-right: dashed #D8D8D8 .5px;
+	}*/
+	.creditpurchase-grid div:nth-of-type(odd){
+		border-right: dashed #D8D8D8 .5px!important;
+	}
+	.creditpurchase-grid div:nth-of-type(6n+1), .creditpurchase-grid div:nth-of-type(6n+2), .creditpurchase-grid div:nth-of-type(6n+3) , .creditpurchase-grid div:nth-of-type(6n+4){
+		border-bottom: dashed #D8D8D8 .5px;
+	}
+	#creditpurchasebenefits{
+		padding-top: 10PX!important;
+	}
+	#creditpurchasebenefits{
+		padding-bottom: 5%!important;
+	}
+	.creditpurchasebenefits-footer .big{
+		padding-top: 15px;
+		font-size: 16px!important;
+		padding-bottom: 15px;
+	}
+	h1.thankmsg {
+		font-size: 18px;
+		line-height: 1.42857143;
+	}
+	.grey-box img{
+		display: none!important;
+	}
+	.benifit-offer-boxes .benifit-box{
+		border-radius: 0px!important;
+		background: none!important;
+	}
+	.membership .benifit-boxes{
+		margin: 0 1%;
+	}
+	.benifit-box h2 {
+		font-size: 18px;
+		min-height: 0px;
+	}
+	.benifit-offer-boxes .firstrow{
+		border-bottom: dashed #D8D8D8 .5px!important;
+		padding-bottom: 15px;
+	}
+	.benifit-offer-boxes .firstcol{
+		border-right: dashed #D8D8D8 .5px!important;
+	}
+	.benifit-offer-boxes .benifit-box .img-benefit-offer{
+		width: 170px!important;
+	}
+	#creditpurchasebenefits a.benefitbutton{
+		width: 140px!important;
+	}
+	.creditpurchasebenefits-footer {
+		padding-top: 0!important;
+	}
+	div.gallery-profile {
+		width: 46%!important;
+	}
+	.seasonal-confirm-banner {
+		min-height: auto;
+		background-image: url("/images/email_confirm/DS-XmasActv-BN-dsk-Fin.jpg");
+	}
+	.seasonal-confirm-banner .text-blk {
+		margin-left: 0%;
+		text-align: center;
+		padding: 10px 0px;
+	}
+	.page-heading.dark h1 {
+		font-size:1em;
+	}
+}
+@media (max-width: 1100px) {
+	#creditpurchasebenefits a.benefitbutton{
+		width: 125px!important;
+	}
+	.btn-blue-1 {
+		font-size:.8em;
+		line-height: 1.2em;
+	}
+	.write-buttons input{
+		font-size:.7em;
+	}
+}
+@media (max-width: 1000px) {
+	div.gallery-profile {
+		width: 31%!important;
+	}
+	div.gallery-viewmore{
+		display: none;
+	}
+	#creditpurchasebenefits a.benefitbutton{
+		width: 170px!important;
+	}
+	.benifit-offer-boxes .benifit-box{
+		padding: 15px !important;
+		width: 80%;
+	}
+
+}
+/*Phone*/
+@media (max-width: 767px) {
+	body{overflow-x: hidden;}
+
+	.mobile-sidebar{left: 0px;}
+	.mobile-content{left: 250px;right: -250px;}
+	.box-info table{margin: 0 0 0 0;}
+	.box-info .table-responsive{border: none;}
+	.nav.navbar-nav.top-navbar li span.absolute {left: 25px;}
+	.box-info .additional .list-group{margin-bottom: -10px;}
+	.toolbar-btn-action{text-align: center;}
+	.gallery-wrap .column{width: 25%;}
+	.gallery-wrap .column-4{width: 33.33333333333333%;}
+	.gallery-wrap .column-3{width: 50%;}
+	.gallery-wrap .column .inner .img-wrap{
+		height: 70px;
+		overflow: hidden;
+		background: #ddd;
+	}
+	.gallery-wrap .column-3 .inner .img-wrap{
+		height: 140px;
+		overflow: hidden;
+		background: #ddd;
+	}
+	.gallery-wrap .column-4 .inner .img-wrap{
+		height: 105px;
+		overflow: hidden;
+		background: #ddd;
+	}
+	.widget.box-messages{
+		margin-top:0px;
+	}
+
+	footer{text-align: center;}
+	.navbar-nav{
+		float:left;
+		margin:0px;
+	}
+	.navbar{
+		border:none;
+	}
+
+	.navbar-nav .open .dropdown-menu{
+		float:left;
+		position: absolute;
+		background:#fff;
+		right:0px;
+		left:auto!important;
+		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	}
+
+	.navbar-nav.navbar-right:last-child {
+	    margin-right: -15px;
+	    height:50px;
+	}
+
+	.open > .dropdown-menu {
+	    display: block;
+	}
+
+	.nav-tabs.nav-justified > li {
+	    display: table-cell;
+	    width: 1%;
+	}
+
+	.navbar-nav > li > a{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.navbar-right{
+		float: right;
+	}
+	.navbar-nav > li{
+		display: inline-block;
+	}
+	.lock-screen{text-align: center;}
+
+	.profile-actions{
+		bottom:auto;
+		top:60px;
+	}
+	.widget-tabbed{
+		margin-top:40px;
+	}
+	.widget-tabbed .nav-tabs a{
+		font-size:0px !important;
+	}
+	.widget-tabbed .nav-tabs a i{
+		font-size:18px !important;
+	}
+	.the-timeline ul li.the-year{
+		font-size:30px;
+	}
+	.ava-lock-screen{text-align: center; margin-bottom: 20px;}
+	.ava-lock-screen img{
+		width: 100px;
+		margin: 0;
+	}
+	.open-right-sidebar .hide-phone{
+		display: none;
+	}
+
+	.la-pricing-table .la-col-4{width: 50%;}
+	.user-profile-sidebar{text-align: center;}
+	.easyWizardSteps li{
+		display:block;
+	}
+
+	.clear-mobile{
+		clear:both;
+	}
+	.main-mail-submenu .dropdown-menu{
+		width:auto;
+	}
+	.main-mail-submenu .inboxmenu {
+		text-align: center;
+		//font-size: 18px;
+	}
+	.inboxsubmenu a{
+		text-align: left!important;
+	}
+	.main-mail-submenu li {
+		text-decoration: underline;
+	}
+	.main-mail-submenu li:nth-child(1),.main-mail-submenu li:nth-child(2),.main-mail-submenu li:nth-child(3),.main-mail-submenu li:nth-child(4){
+		border-bottom:1px solid #ccc;
+	}
+	.main-mail-submenu li:nth-child(4){
+		border-right:none;
+	}
+	.mail-message-pager{
+		margin-right:-30px;
+	}
+	.inboxmenu{
+		margin-bottom: 4px;
+	}
+	.inboxsubmenu{
+		display:none;
+		background-color: white;
+	}
+	.inboxsubmenu-drafts {
+		height: 29px;
+	}
+	.inboxmore{
+		display:inline-block!important;
+	}
+	.show-sm-down .cpb-box img{
+		width: 60px!important;
+	}
+	.show-sm-down .cpb-box{
+		padding: 10px 6px;
+	}
+	.grey-box{
+		font-size: 18px;
+	}
+	.creditpurchasebenefits-footer .big{
+		font-size: 14px!important;
+	}
+	#creditpurchasebenefits{
+		font-size:.99em;
+	}
+	.grey-box img{
+		display: none!important;
+	}
+	.benifit-box{
+		border-radius: 0px!important;
+		background: none!important;
+	}
+	.benifit-boxes .col-xs-12{
+		border-bottom: dashed #D8D8D8 .5px!important;
+	}
+	.benifit-boxes .col-xs-12:last-child {
+		border-bottom:0px!important;
+	}
+	.benifit-offer-boxes{
+		margin-top: 12px!important;
+	}
+	.benifit-offer-boxes .col-xs-6,.col-sm-6,.col-md-6{
+		padding-left: .75em!important;
+		padding-right: .75em!important;
+	}
+	.billing-wrapper .state, .billing-wrapper .country {
+		padding-left: 1em!important;
+		padding-right: 1em!important;
+	}
+	.gift-cart6{
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+	.benifit-offer-boxes .firstrow{
+		border-bottom: dashed #D8D8D8 .5px!important;
+		padding-bottom: 15px;
+	}
+	.benifit-offer-boxes .firstcol{
+		border-right: dashed #D8D8D8 .5px!important;
+	}
+	#creditpurchasebenefits a.benefitbutton{
+		width: 145px;
+	}
+	.benifit-offer-boxes .benifit-box {
+		margin: 0px!important;
+	}
+	.benifit-offer-boxes .benifit-box{
+		padding: 5px !important;
+		width: 100%;
+	}
+	#creditpurchasebenefits {
+   	    padding-bottom: 0px !important;
+	}
+	.creditpurchasebenefits-footer {
+    	padding-top:0px!important;
+    }
+	.benifit-box h2 {
+		min-height: 0px;
+		padding: 0px!important;
+		margin: 0px !important;
+	}
+  .bannerblk-3 { margin:0px 0 30px!important;}
+  .no-float-sm{
+  	float:none;
+  }
+	.imgmob100{
+		width:100%!important;
+	}
+	.aflirtlinks img.flirt{
+		max-width: 100%!important;
+	}
+	.flirtsTitle{
+		padding: 0px!important;
+		padding: 2px!important;
+	}
+	.photo-likes li{
+		width: 50%;
+		text-align: center;
+	}
+	.btimer-blk1{
+		display: block!important;
+		width:100%;
+	}
+	.btimer-blk3{
+		display: inline-block!important;
+		width:58%;
+	}
+	.btimer-blk4{
+		display: inline-block!important;
+		width:40%;
+	}
+	#banner-timer{
+		display: block!important;
+	}
+	#btimer{
+		box-shadow: none;
+	}
+	.pager .btn{
+		font-size: 16px!important;
+	}
+	.pager a{
+		line-height: 20px !important;
+	}
+	#signup-popover .ds-input, #signup-popover-forLP .ds-input{
+		width: 90%!important;
+		margin-left: auto!important;
+		margin-right: auto!important;
+	}
+	#signup-popover label, #signup-popover-forLP label{
+		margin-left: 5%!important;
+	}
+	#signup-popover .ds-select, #signup-popover-forLP .ds-select{
+		width: 90.5%!important;
+		margin-left: auto!important;
+		margin-right: auto!important;
+	}
+	#signup-popover .btn-lg, #signup-popover-forLP .btn-lg{
+		font-size: 1.5em!important;
+	}
+
+
+	.page-heading .register-title-text {
+		text-align: center !important;
+		display: block;
+	}
+}
+@media (max-width: 650px) {
+	div.gallery-profile {
+		width: 47%!important;
+	}
+	div.gallery-viewmore{
+		display: inline-block;
+	}
+	div.gallery-profile .g-btn{
+		font-size: 13px!important;
+	}
+	div.gallery-profile .btn-request-photo{
+		font-size: 11px!important;
+	}
+	.seasonal-confirm-banner {
+		min-height: auto;
+		background-image: url("/images/email_confirm/DS-XmasActv-BN-250x160.png");
+		width: 400px;
+		max-width: 100%;
+	}
+	.seasonal-confirm-banner .text-blk {
+		padding: 10px 10px;
+		max-width: 400px;
+	}
+}
+@media (max-width: 480px){
+	.col-sm-5.txt-right {
+		float: left;
+		padding-right: 0;
+	}
+	.col-sm-7.txt-left {
+		float: right;
+		padding-left: 0;
+		padding-right: 12px;
+	}
+	div.gallery-profile .btn-request-photo{
+		font-size: 11px!important;
+	}
+	div.gallery-profile {
+		width: 47%!important;
+		max-width: 50%!important;
+		margin: 10px 2px!important;
+	}
+	div.gallery-profile .fa{
+		font-size: 11px!important;
+		margin-right: 4px;
+	}
+
+	.box-info .icon-box{
+		width: 100%;
+		display: block;
+	}
+	.box-info .icon-box,.box-info .text-box{text-align: center;}
+	.gallery-wrap .column,.gallery-wrap .column-3,.gallery-wrap .column-4{width: 33.33333333333333%;}
+	.gallery-wrap .column .inner .img-wrap,.gallery-wrap .column-3 .inner .img-wrap,.gallery-wrap .column-4 .inner .img-wrap{height: 70px;}
+	.login-wrap{margin: 20px 0 0 0;}
+
+	.navbar-default {
+	  border: none;
+	}
+	.open-right-sidebar .topbar-profile,.open-right-sidebar .hide-phone{
+		display: none;
+	}
+	.the-timeline ul li.the-year{
+		font-size:20px;
+		margin-left: 37%;
+	}
+	#wrapper:not(.enlarged) .topbar-profile,#wrapper:not(.enlarged) .hide-phone{
+		display: none;
+	}
+
+	.side-menu{
+		z-index: 10 !important;
+	}
+	.side-menu-mob{
+		z-index: 10 !important;
+	}
+	#weather h2{
+		top:90px;
+	}
+	#weather .w-region{
+		top:250px;
+	}
+	#stock-widget #stock-title{
+		display: none;
+	}
+	#stock-widget .stock-options{
+		margin-left: 15px;
+	}
+	.button-menu-mobile{display: block;}
+	#page1-form form{
+		margin-left:0px;
+	}
+	.home-member-stats{
+		font-size:1.1em;
+	}
+
+
+	.home-member-stats label{
+		font-size:1.1em;
+		width:120px;
+	}
+	.page-1-form-wrapper{
+		margin:0 auto;
+		float:none;
+		width:320px;
+	}
+	.creditpurchase-grid img{
+		display: inline-block;
+	}
+	.creditpurchase-grid .rwd-break{
+		display: block!important;
+	}
+	.creditpurchase-grid .col-md-6{
+		text-align: center;
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	#popover-createProfile_2 .col-xs-6{
+		padding-bottom: 10px;
+	}
+	#popover-createProfile_2 .np{
+		padding: 0;
+	}
+	#popover-createProfile_2 .pt10{
+		padding-top: 10px;
+	}
+  .mob_msg_blk{
+		padding:10px;
+	}
+   #profile-blk-id{
+		max-width:150px!important;
+		height:auto!important;
+		float:left!important;
+	}
+	.testi_image_lg{
+		max-width: 100%!important;
+	}
+	.btimer-blk3{
+		display: inline-block!important;
+		width:100%;
+	}
+	.btimer-blk4{
+		display: inline-block!important;
+		width:100%;
+	}
+	.gift-item-ellipsis{
+		width:200px;
+		display:block;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+	}
+
+}
+
+@media (max-width: 430px){
+	.hide-phone{
+		display: none !important;
+	}
+	#creditpurchasebenefits a.benefitbutton{
+		width: 130px!important;
+	}
+	.benifit-offer-boxes .benifit-box .img-benefit-offer {
+		width: 135px!important;
+		height: auto;
+	}
+	.gift-item-ellipsis{
+		width:180px;
+	}
+}
+@media (max-width: 400px) {
+	.sms-notify-blk .ds-input, .sms-notify-blk .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+		width: 20rem!important;
+	}
+	.show-sm-down .cpb-box{
+		padding: 15px 1px;
+	}
+	.show-sm-down .cpb-box a{
+		font-size: .9em!important;
+	}
+	.gift-item-ellipsis{
+		width:auto;
+	}
+	.purchased-albums .innerbox{
+		width:330px!important;
+	}
+	.purchased-albums .leftbox{
+	  width:130px;
+	}
+	.purchased-albums .rightbox{
+	  width:185px;
+	}
+}
+@media (max-width: 360px){
+	.sms-notify-blk .ds-input, .sms-notify-blk .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+		width: 18rem!important;
+	}
+	.col-sm-7.txt-left {
+		width: 20rem;
+	}
+	.gallery-wrap .column,.gallery-wrap .column-3,.gallery-wrap .column-4{width: 50%;}
+	.gallery-wrap .column .inner .img-wrap,.gallery-wrap .column-3 .inner .img-wrap,.gallery-wrap .column-4 .inner .img-wrap{height: 80px;}
+	.la-pricing-table .la-col-4{width: 100%;}
+	#creditpurchasebenefits .benifit-offer-boxes a.benefitbutton {
+		width: 115px !important;
+	}
+	.benifit-offer-boxes .benifit-box .img-benefit-offer {
+		width: 120px !important;
+	}
+}
+
+@media (max-width: 320px){
+	.sms-notify-blk .ds-input, .sms-notify-blk .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+		width: 16rem!important;
+	}
+	.col-sm-7.txt-left {
+		width: 17rem;
+	}
+	.gallery-wrap .column,.gallery-wrap .column-3,.gallery-wrap .column-4{width: 50%;}
+	.gallery-wrap .column .inner .img-wrap,.gallery-wrap .column-3 .inner .img-wrap,.gallery-wrap .column-4 .inner .img-wrap{height: 70px;}
+	#creditpurchasebenefits .benifit-offer-boxes a.benefitbutton {
+		width: 110px !important;
+	}
+	.benifit-offer-boxes .benifit-box .img-benefit-offer {
+		width: 110px !important;
+	}
+}
+
+
+@media (max-width: 1367px) {
+	.dropdown-menu:not(.datepicker) {
+		width: fit-content;
+	}
+}
+
+@media (max-width: 1275px) {
+	.topbar.halloween {
+		background-size:130%;
+	}
+}
+/* mobile menu */
+@media (max-width: 900px) {
+	.scrollable-menu {
+		height: auto;
+		max-height: 550px;
+		overflow-y:auto;
+		overflow-x:hidden;
+	}
+	.hamburger a.dropdown-toggle{
+		color: #fff!important;
+	}
+	.dropdown-submenu {
+		position: relative;
+		z-index: 999;
+	}
+	.dropdown-submenu .dropdown-menu>.active>a, .dropdown-submenu .dropdown-menu>.active>a:focus, .dropdown-submenu .dropdown-menu>.active>a:hover{
+		background-color: #fff!important;
+	}
+	.left.side-menu-mob {
+	  left: -210px;
+	}
+	.left.side-menu {
+	  left:-210px;
+	}
+	.sidebar-menu-mob{
+		min-width: 295px;
+		z-index: 999;
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+		padding: 0!important;
+	}
+	.sidebar-menu-mob li{
+		background-image: none;
+		background-color: #fff!important;
+		color: #333;
+		border-bottom: 1px solid #eee;
+	}
+	.sidebar-menu-mob li a{
+		color: #000;
+		padding: 7px;
+	}
+	.fa.fa-circle.fa-stack-2x{
+		color: #336699;
+	}
+	.fa-stack.fa-lg{
+		margin-right: 1px;
+	}
+	.sidebar-menu-mob .new-count{
+		margin-left: 10px;
+	}
+	#wrapper .content-page{
+		margin-left:0px !important;
+		width:100%;
+		display: inline-block;
+	}
+	.open-right-sidebar .content-page > .content{
+		opacity: 0;
+	}
+    .logo {
+        display: block;
+        height: inherit;
+        position: fixed;
+        width: 100%;
+        z-index: -1;
+    }
+	.logo img{
+		display:none;
+	}
+	.topbar.christmas {
+		.logo img{
+			display:inline!important;
+			margin-left:-165px;
+		}
+		.logo {
+			text-align: center!important;
+		}
+	}
+	.hamburger{
+		display:block!important;
+	}
+	.topbar .topbar-left{
+		width:60px;
+        height: inherit;
+	}
+	.navbar-right{
+		padding-right:3px;
+	}
+	.smallscreen #invitations-widget{
+		right:-5px !important;
+	}
+	.topbar{
+		background:#01245e url('/images/layout/menu/top-bg-dsmobile-v1.jpg')no-repeat center center !important;
+	}
+	.topbar.valentinesDay{
+		background-image:url('/images/seasonal/valentinesDay/headerMobile2.png') !important;
+		background-size: cover !important;
+		background-position: center center !important;
+		background-color: #f7f7f9 !important;
+	}
+	.topbar.mothersday{
+		background-size: cover !important;
+		background-position: center !important;
+		background-color:#bec09a;
+		.logo img{
+			margin-left:auto;
+			margin-right:auto;
+			display:block;
+		}
+	}
+	.topbar.christmas{
+		background-size: cover !important;
+	}
+	.topbar.ukraine-support{
+		background-position: center !important;
+		background-size: cover !important;
+	}
+	.topbar .iconify i{
+		font-size:22px !important;
+	}
+	.topbar .iconify span{
+		line-height:16px;
+	}
+	.sidebar-menu-mob li.moremenu{
+		padding: 0px!important;
+		text-align: center;
+		background-color: #336699!important;
+		color: #fff!important;
+	}
+	.sidebar-menu-mob li.moremenu a.test{
+		color: #fff!important;
+		background-color: #336699!important;
+	}
+	.sidebar-menu-mob li.moremenu a.test i{
+		color: #fff!important;
+		background-color: transparent;
+	}
+	.sidebar-menu-mob li.moremenu a.test:hover{
+		color: #fff!important;
+		background-color: #336699!important;
+	}
+	.sidebar-menu-mob{
+		background-color:#fff;
+	}
+	.sidebar-menu-mob .active a{
+		background-color:#fff!important;
+		border-left-color:#ddd;
+		font-weight: 600;
+		color: #000;
+	}
+	.sidebar-menu-mob a{
+		border-left-color:#eee;
+		color:#000;
+	}
+	.sidebar-menu-mob li.no-icon a{
+		padding: 14px 7px !important;
+	}
+	.sidebar-menu-mob li.no-icon span{
+		padding-left: 7px;
+	}
+	.sidebar-menu-mob .fa-caret-down{
+		padding: 4px;
+	}
+	.sidebar-menu-mob .fa-caret-up{
+		padding: 4px;
+	}
+	.sidebar-menu-mob a:hover{
+		background-color:#eee;
+		border-left-color:#ddd;
+	}
+	.sidebar-menu-mob > li > a:hover{
+		background-color:#ddd;
+		font-weight: 600;
+		color: #000;
+	}
+	.sidebar-menu-mob li a.active{
+		background-color:#fff!important;
+		border-left-color:#ddd;
+		font-weight: 600;
+		color: #000;
+	}
+	.sidebar-menu-mob > li > a > i{
+		color: #336699;
+	}
+	.sidebar-menu-mob > li > a.active i.fa {
+		color:  #fff!important;
+	}
+	.sidebar-menu-mob > li > a.active i.fa-circle {
+		color:  #01245e!important;
+	}
+	.sidebar-menu-mob > li > a:hover i.fa {
+		color:  #fff!important;
+	}
+	.sidebar-menu-mob > li > a:hover i.fa-circle {
+		color:  #01245e!important;
+	}
+	.message-list .message-list-item .message-col.msg-blk {
+		margin-top: 0px;
+	}
+	.message-list .message-list-item .date-mob-blk {
+		margin-top: 0px;
+		margin-bottom: 5px;
+		text-align: right;
+	}
+}
+@media (max-width: 875px) {
+	.topbar.mothersday {
+		.logo img {
+			left: -30px;
+			position:relative;
+		}
+	}
+}
+@media (max-width: 815px) {
+	.topbar.mothersday {
+		.logo img {
+			left: -50px;
+			position:relative;
+		}
+	}
+}
+@media (max-width: 815px) {
+	.topbar.mothersday {
+		.logo img {
+			left: 0px;
+		}
+	}
+}
+@media (max-width: 1075px) {
+	.topbar.womensDay {
+		background-image: url('../../images/seasonal/womensDay/headerMobileLegacy.png?202519') !important;
+		background-size: contain !important;
+		background-position-y: center !important;
+		background-position-x: -4rem !important;
+		.logo img {
+			opacity: 0;
+			padding-left: 3em;
+		}
+	}
+}
+@media (max-width: 900px) {
+
+}
+@media (min-width: 768px) and (max-width: 900px) {
+	.topbar.newyearsDay {
+		background-position: left -6rem center !important;
+	}
+	.topbar.valentinesDay{
+		background-position: left -6rem center !important;
+	}
+
+}
+@media (max-width: 420px) {
+	.topbar.womensDay {
+		background-size: cover !important;
+	}
+}
+@media (max-width: 320px) {
+	.topbar.womensDay {
+		background-image: url('../../images/seasonal/womensDay/headerMobile.png?202519') !important;
+	}
+}
+@media (max-width: 448px) {
+
+	.topbar.christmas {
+		.logo img {
+			margin-left: -55px;
+			height: auto;
+			width: 50%;
+			margin-top: 1%;
+		}
+	}
+}
+@media (max-width: 385px) {
+
+	.topbar.christmas {
+		.logo img{
+			margin-top: 2%;
+		}
+	}
+}
+@media (max-width: 320px) {
+
+	.topbar.christmas {
+		.logo img{
+			margin-top: 3%;
+		}
+	}
+}
+@media (max-width: 420px) {
+	.topbar.thanksgiving{
+		background-size: cover !important;
+	}
+	.topbar.newyearsDay{
+		background-size: contain !important;
+	}
+}
+@media (min-width: 550px) and (max-width: 768px) {
+	.topbar.anniversary{
+		background-size:60%;
+	}
+}
+@media (min-width: 768px) and (max-width: 1290px) {
+	.topbar.anniversary{
+		background-size:40%;
+	}
+}
+@media (max-width: 550px) {
+	/* inbox */
+	.mailsenderRespBlk, .messSubjRespBlk{
+		display: block;
+		width: 100%!important;
+	}
+	.message-list .check-wrapper{
+		width:25px;
+	}
+	.message-list .check-wrapper .icon-reply-1{
+		margin-left:0;
+	}
+
+	.message-list .photo-wrapper{
+	  padding-left:0px;
+	  padding-right:0px;
+	}
+	.message-list .mail-subject{
+		padding-left:4px;
+		width:100px;
+	}
+	.message-list-item .mail-subject  p:first-of-type{
+		padding-top:10px;
+	}
+
+	.topbar.anniversaryday{
+		background-size: cover !important;
+		background-position: center !important;
+	}
+	.topbar.anniversary{
+		background-image:url('/images/_multiSite/ds/logo_white_o.png');
+		background-size:50%;
+	}
+	/* trial banner homepage */
+	.tb-font-size {
+		font-size:10px;
+	}
+}
+
+
+
+@media (min-width: 1px) and (max-width: 800px)  {
+	.member-home-banner{
+		background-image: none !important;
+		height:auto !important;
+		margin-bottom:0px !important;
+	}
+	.member-home-banner img{
+		display:block !important;
+		width:100% !important;
+		max-width:100% !important;
+	}
+	.profileMsgCol{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.dateUpload {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.d-md {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 993px) {
+	.d-sm {
+		display: none !important;
+	}
+    #profileMsgBlk {
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px)  {
+	/* Invitation widget overflow */
+	#invitations-widget{
+		padding-right: 0px;
+	}
+	.invitation-column{
+		float:right;
+	}
+	.inner-content{
+		max-width:653px;
+	}
+}
+@media (min-width: 1300px) and (max-width: 1400px)  {
+	/* Invitation widget overflow */
+	#invitations-widget{
+		padding-right: 0px;
+	}
+	.invitation-column{
+		float:right;
+	}
+	.inner-content{
+		max-width:747px;
+	}
+	.home-correspondence label{
+		width: 78px;
+	}
+}
+@media (min-width: 1400px) and (max-width: 1500px)  {
+	/* Invitation widget overflow */
+	#invitations-widget{
+		padding-right: 0px;
+	}
+	.invitation-column{
+		float:right;
+	}
+	.inner-content{
+		max-width:849px;
+	}
+}
+@media screen and (min-width: 900px) and (max-width: 2400px)  {
+	.topbar.christmas {
+		height: 10rem;
+	}
+}
+@media screen and (max-width: 900px) {
+	.topbar.christmas {
+		background-size: cover!important;
+	}
+	.topbar.newyear {
+		background-size: contain!important;
+		background-color: #000 !important;
+	}
+}
+@media screen and (max-width: 600px) {
+	.topbar.christmas {
+		background-size: cover !important;
+	}
+}
+
+.ds-select .bootstrap-select .btn-default
+{
+	height: 40px !important;
+}
+
+.ds-select .filter-option
+{
+
+}
+
+.ds-select .filter-option-inner-inner
+{
+	font-size: inherit;
+}
+
+
+@media screen and (max-width: 600px)
+{
+	.mb-text-center
+	{
+		text-align: center;
+	}
+	.mb-text-center-override
+	{
+		text-align: center !important;
+	}
+
+	.mb-font-size-20
+	{
+		font-size: 20px;
+	}
+
+	.mb-no-margin
+	{
+		margin: 0 0 0 0 !important;
+		margin-bottom: 15px !important;
+	}
+
+	.play-button {
+		justify-content: center;
+		align-items: center;
+	}
+	.mb-back14-ccv
+	{
+		margin-left: -14%;
+	}
+
+	.mb-break {
+		display: block;
+	}
+
+	.ui-dialog {
+		z-index: 2000;
+	}
+
+}
+
+.mb-break {
+	display: none;
+}
+
+/* Profile page */
+@media (min-width: 770px) and (max-width: 1299px) {
+	.btn-icon .btn-sm .icon-chat {
+		display: none;
+	}
+	.btn-icon .btn-sm .icon-mail {
+		display: none;
+	}
+	.ds-md-block {
+		display: block !important;
+	}
+	.ds-md-none {
+		display: none !important;
+	}
+	.request-photo img {
+		width: 125px;
+
+	}
+}
+
+@media screen and (min-width:600px) and (max-width:1500px){
+	.btn-primaryBlue {
+		min-width:30% !important;
+	}
+	#call-confirm-modal .modal-btns .btn-primaryBlue {
+		min-width:auto !important;
+		padding: 8px 24px !important;
+		height: 40px !important;
+	}
+}
+
+@media (min-width:1401px) and (max-width: 1600px) {
+	.home-correspondence label {
+		width: 90px;
+	}
+}
+
+
+/*Gift Shop*/
+@media (max-width: 1560px) {
+	#gifts-searchblk.holiday-bkg.valentines {
+		background-image: url('/images/banners/holiday-banners/gift-shop/valentines-lady-mobile.jpg') !important;
+	}
+}
+@media (min-width: 1200px) {
+
+	.searchBoxes {
+		text-align:right!important;
+	}
+	.searchBoxes .profileimg {
+		width:84%;
+	}
+	.searchBoxes .nameTxt {
+		text-align:left!important;
+		margin-top: 100px!important;
+	}
+	#gifts-searchblk.holiday-bkg-search.womensday {
+		background-image: url('/images/banners/holiday-banners/gift-shop/womensday.png') !important;
+		background-position: bottom center;
+		background-size: cover;
+	}
+	#gifts-searchblk.holiday-bkg.gifts-searchblk-lady-selected.womensday {
+		background-image: url('/images/banners/holiday-banners/gift-shop/womensday-lady.png') !important;
+		background-position: center right;
+		background-size: contain;
+	}
+	#gifts-searchblk.holiday-bkg-search.mothersday {
+		background-image: url('/images/banners/holiday-banners/gift-shop/mothersday.png') !important;
+		background-position: bottom center;
+		background-size: cover;
+	}
+	#gifts-searchblk.holiday-bkg.gifts-searchblk-lady-selected.mothersday {
+		background-image: url('/images/banners/holiday-banners/gift-shop/mothersday-lady.png') !important;
+		background-position: center center;
+		background-size: cover;
+	}
+}
+@media (max-width: 1200px) {
+	.holiday-bkg .nameTxt {
+		margin-top:0px!important;
+	}
+	#gifts-searchblk.holiday-bkg-search.womensday {
+		background-image: url('/images/banners/holiday-banners/gift-shop/womensday-mobile.png') !important;
+		background-size: cover;
+	}
+	#gifts-searchblk.holiday-bkg.gifts-searchblk-lady-selected.womensday {
+		background-image: url('/images/banners/holiday-banners/gift-shop/womensday-lady-mobile.png') !important;
+		background-position: top right;
+		background-size: contain;
+	}
+	#gifts-searchblk.holiday-bkg-search.mothersday {
+		background-image: url('/images/banners/holiday-banners/gift-shop/mothersday-mobile.png') !important;
+		background-position: bottom center;
+		background-size: cover;
+	}
+	#gifts-searchblk.holiday-bkg.gifts-searchblk-lady-selected.mothersday {
+		background-image: url('/images/banners/holiday-banners/gift-shop/mothersday-lady-mobile.png') !important;
+		background-position: center right;
+		background-size: cover;
+	}
+}
+@media (max-width: 767px) {
+	#gifts-searchblk .navbar-form .search-button {
+		height: 80%!important;
+	}
+
+	#gifts-searchblk.holiday-bkg {
+		min-height: 243px;
+	}
+	#gifts-searchblk.holiday-bkg .nameTxt {
+		padding-left: 10px;
+	}
+	#gifts-searchblk.holiday-bkg-search.valentines {
+		background-image: url('/images/banners/holiday-banners/gift-shop/valentines-mobile.jpg') !important;
+	}
+	#gifts-searchblk.holiday-bkg.gifts-searchblk-lady-selected.womensday {
+		background-position: top right;
+	}
+}
+@media (max-width: 550px) {
+	#gifts-searchblk.holiday-bkg-search #searchblk {
+		width: 260px!important;
+	}
+}
+@media (max-width: 460px) {
+	#gifts-searchblk.holiday-bkg {
+		background-size:cover!important;
+	}
+}
+

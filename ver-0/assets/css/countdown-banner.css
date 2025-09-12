@@ -1,0 +1,206 @@
+.countdown-banner {
+    position: relative;
+}
+
+#countdown-wrapper {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    right: 100px;
+    z-index: 2;
+}
+
+.countdown-banner .redeem-btn {
+    position: absolute;
+    top: 34%;
+    right: 1%;
+    background: #3cb734;
+    color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 1px 4px 2px;
+}
+
+#countdown-wrapper .countdown-time-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#countdown-wrapper .countdown-time-item .character-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60px;
+    text-align: center;
+    border: 1px solid;
+    padding: 5px 5px 5px 5px;
+}
+
+#countdown-wrapper .countdown-time-item .character-group .digit-wrapper {
+    font-size: 40px;
+    line-height: 35px;
+    border-radius: 10%;
+
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#countdown-wrapper .time-label {
+    font-family: 'Gobold', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.countdown-banner img {
+    width: 100% !important;
+}
+
+.contentArea {
+    padding-bottom: 15px;
+}
+
+ .textLink {
+     color: green !important;
+     margin-left: 40%;
+}
+
+@media screen and (max-width: 1700px) {
+    #countdown-wrapper {
+        bottom: 10px;
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 900px) {
+    #countdown-wrapper .countdown-time-item .character-group {
+        width: 40px;
+    }
+
+    #countdown-wrapper .countdown-time-item .character-group .digit-wrapper {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    #countdown-wrapper .time-label {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+    #countdown-wrapper .countdown-time-item .character-group {
+        width: 35px;
+    }
+
+    #countdown-wrapper .countdown-time-item .character-group .digit-wrapper {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #countdown-wrapper .time-label {
+        font-size: 8px;
+    }
+
+    #countdown-wrapper .countdown-time-item {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #countdown-wrapper {
+        right: 30px;
+        bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+
+    #countdown-wrapper .countdown-time-item .character-group {
+        width: 50px;
+    }
+
+    #countdown-wrapper .countdown-time-item .character-group .digit-wrapper {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #countdown-wrapper .time-label {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .countdown-banner {
+        width: 100%;
+    }
+
+    .countdown-banner img {
+        width: 100% !important;
+    }
+
+    #countdown-wrapper {
+        bottom: 15px;
+    }
+
+    #countdown-wrapper .countdown-time-item .character-group {
+        width: 50px;
+    }
+
+    #countdown-wrapper .countdown-time-item .character-group .digit-wrapper {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #countdown-wrapper .countdown-time-item {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #countdown-wrapper .time-label {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #countdown-wrapper {
+        bottom: 25px;
+        right: 50px;
+    }
+
+    #countdown-wrapper .countdown-time-item .character-group {
+        width: 40px;
+    }
+
+    #countdown-wrapper .countdown-time-item .character-group .digit-wrapper {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    #countdown-wrapper .countdown-time-item {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+    #countdown-wrapper .time-label {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #countdown-wrapper {
+        bottom: 5px;
+        right: 10px;
+    }
+}
